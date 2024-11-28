@@ -2,7 +2,13 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        afolkalips: ['Afolkalips'],
+        roboto: ['Roboto', 'sans-serif'],
+        buick: ['Buick'],
+      },
+    },
   },
   plugins: [],
 };
