@@ -42,7 +42,7 @@ export const MouseFollower = () => {
     <div className='fixed inset-0 overflow-hidden'>
       <div
         ref={circleRef}
-        className='absolute w-10 h-10 border bg-white/10 backdrop-blur-lg border-white rounded-full pointer-events-none'
+        className='absolute w-10 h-10 bg-white/10 backdrop-blur-lg rounded-full pointer-events-none border'
       />
     </div>
   );
