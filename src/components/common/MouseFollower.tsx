@@ -39,10 +39,10 @@ export const MouseFollower = () => {
   }, []);
 
   return (
-    <div className='fixed inset-0 overflow-hidden'>
+    <div className='fixed inset-0 overflow-hidden pointer-events-none'>
       <div
         ref={circleRef}
-        className='absolute w-10 h-10 bg-white/10 backdrop-blur-lg rounded-full pointer-events-none border'
+        className='absolute w-10 h-10 bg-white/10  rounded-full border pointer-events-none'
       />
     </div>
   );

@@ -1,5 +1,5 @@
-import { Landing } from './components/Landing';
-import { MouseFollower } from './components/parts/MouseFollower';
+import { Landing } from './components/Landing/Landing';
+import { MouseFollower } from './components/common/MouseFollower';
 
 export const App = () => {
   return (
