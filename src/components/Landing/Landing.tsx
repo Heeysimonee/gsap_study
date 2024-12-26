@@ -40,7 +40,7 @@ export const Landing = () => {
   );
   return (
     <div
-      className='h-screen w-full items-center flex flex-col gap-10 bg-azteka-green-200'
+      className='h-screen w-full items-center flex flex-col gap-10 bg-azteka-green-200 relative'
       ref={container}
     >
       <Header />
