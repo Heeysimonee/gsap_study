@@ -44,7 +44,7 @@ export const Landing = () => {
       ref={container}
     >
       <Header />
-      <div className='text-8xl text-stone-100 w-full flex flex-col items-center font-clash font-bold'>
+      <div className=' text-4xl lg:text-8xl text-stone-100 w-full flex flex-col items-center font-clash font-bold'>
         <ScrambleText
           list={originalLine1}
           identifier='letter-line1'

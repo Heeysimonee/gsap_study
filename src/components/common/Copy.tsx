@@ -30,7 +30,7 @@ export const Copy = ({ bg = 'bg-stone-100', id }: Props) => {
       ref={copyContainer}
       id={id}
     >
-      <p className='text-6xl text-stone-800 w-3/5 font-clash copy-text opacity-0'>
+      <p className='text-2xl lg:text-6xl text-stone-800 w-3/5 font-clash copy-text opacity-0'>
         Azteka.ai bridges the gap between what your customers want and how your business delivers.We’re not just another
         AI tool—we’re your insider expert, always ready to guide your customers and boost your sales.
       </p>

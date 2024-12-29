@@ -4,7 +4,7 @@ export const DemoImageContainer = () => {
   return (
     <div className='grow w-full relative overflow-y-hidden z-50'>
       <img
-        className='max-h-full object-scale-down absolute left-[20%] right-0 top-0'
+        className='hidden lg:block max-h-full object-scale-down absolute left-[20%] right-0 top-0'
         src={MacDemo}
         alt=''
       />

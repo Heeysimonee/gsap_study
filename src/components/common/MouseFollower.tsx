@@ -6,6 +6,7 @@ export const MouseFollower = () => {
   const circleRef = useRef(null);
 
   useGSAP(() => {
+    if (!circleRef.current) return;
     // Create a smooth follow effect
     const handleMouseMove = (event: MouseEvent) => {
       gsap.to(circleRef.current, {
@@ -19,9 +20,10 @@ export const MouseFollower = () => {
     };
 
     const stickCircle = (e: MouseEvent) => {
+      if (!circleRef.current) return;
       const tl = gsap.timeline();
 
-      tl.set('.circle', {
+      tl.set(circleRef.current, {
         x: e.pageX,
         y: e.pageY,
       });
@@ -37,6 +39,7 @@ export const MouseFollower = () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+  if (window.innerWidth < 1024) return null;
 
   return (
     <div className='fixed inset-0 overflow-hidden pointer-events-none'>

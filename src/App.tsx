@@ -1,3 +1,4 @@
+import { InteractiveDemo } from './components/Demo/InteractiveDemo';
 import { Landing } from './components/Landing/Landing';
 import { Copy } from './components/common/Copy';
 import { MouseFollower } from './components/common/MouseFollower';
@@ -7,6 +8,7 @@ export const App = () => {
     <div className='w-full h-full relative'>
       <Landing />
       <Copy id='azteka-about' />
+      <InteractiveDemo />
       <MouseFollower />
     </div>
   );
