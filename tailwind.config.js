@@ -4,9 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'azteka-green': {
+        azteka: {
           100: '#DDF812',
-          200: '#073E1E',
+          200: '#1F623B',
+          300: '#073E1E',
         },
       },
       fontFamily: {

@@ -8,8 +8,8 @@ type Props = {
   iconRight?: string;
 };
 const stylesList = [
-  'bg-azteka-green-100 text-stone-800 justify-center',
-  'border border-azteka-green-100 text-azteka-green-100 justify-between',
+  'bg-azteka-100 text-stone-800 justify-center',
+  'border border-azteka-100 text-azteka-100 justify-between',
 ];
 export const Button = ({ title, onClick, style = 1, iconLeft = undefined, iconRight = undefined }: Props) => {
   return (

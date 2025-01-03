@@ -40,7 +40,7 @@ export const Header = () => {
       <div className='flex gap-10 text-stone-100 font-light text-lg'>
         {navMap.map(({ link, name }, i) => (
           <button
-            className='text-white hover:text-azteka-green-100 hover:font-semibold transition-all duration-300'
+            className='text-white hover:text-azteka-100 hover:font-semibold transition-all duration-300'
             key={i}
             onClick={() => handleScrollTo(link)}
           >
